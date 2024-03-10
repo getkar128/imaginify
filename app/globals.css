@@ -75,6 +75,11 @@
   }
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
 .auth {
   @apply flex-center min-h-screen w-full bg-purple-100
 }
